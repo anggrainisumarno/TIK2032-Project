@@ -1,43 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    nav {
-        padding: 10px;
-        text-align: center;
-    }
-
-    nav a {
-        text-decoration: none;
-        margin: 0 10px;
-    }
-</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Anggikoo Personal Gallery</title>
-
+    <title>Anggikoo Personal Gallery</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="gambar/Profil.jpeg" type="image/x-icon">
     <link rel="icon" href="gambar/Profil.jpeg" type="image/x-icon">
 </head>
-
 <body>
-    <h1 style="text-align: center;">Anggikoo Gallery</h1>
     <nav>
-        <a href='index.html'>Home</a> |
-        <a href="gallery.html">Gallery</a> |
-        <a href="contact.html">Contact</a> |
-        <a href="blog.html">blog</a>
+        <a href='index.html' class="nav-link">Home</a> |
+        <a href="gallery.html" class="nav-link">Gallery</a> |
+        <a href="contact.html" class="nav-link">Contact</a> |
+        <a href="blog.html" class="nav-link">blog</a>
     </nav>
 
     <hr />
-                <img src="gambar/Family.jpeg" alt="Family" height="400" width="300"/>
-                <img src="gambar/Trio.jpeg" alt="Trio" height="400" width="300"/>
-                <img src="gambar/Azariah.jpeg"  alt="Azariah" height="400" width="300"/>
-                <img src="gambar/Our.jpeg" alt="Our" height="350" width="400"/>
-                <img src="gambar/Bestie.jpeg" alt="Bestie" height="400" width="450"/>
-                <img src="gambar/Moodbooster.jpeg" alt="Moodbooster"  height="350" width="500"/>
-           
+    <h1 style="text-align: center;">Anggikoo Gallery</h1>
+    <div class="gallery">
+        <div class="polaroid">
+            <img src="gambar/Family.jpeg" alt="Family">
+            <div class="container">
+                <p>Rumah yang the real rumah. Orang-orang yang selalu ada di situasi apapun itulah keluarga.</p>
+            </div>
+        </div>
+        <div class="polaroid">
+            <img src="gambar/Trio.jpeg" alt="Trio">
+            <div class="container">
+                <p>Teman dari kecil, tumbuh dan berkembang bersama dimana kami mengetahui sifat masing-masing. Ada begitu banyak cerita yang telah kita bertiga jalani bersama</p>
+            </div>
+        </div>
+        <div class="polaroid">
+            <img src="gambar/Azariah.jpeg" alt="Azariah">
+            <div class="container">
+                <p>
+                    Azariah....Dipertemukan karena adanya tugas agama di semester 1 dan tidak di sangka bisa terus berteman hingga saat ini. Teman yang the real teman, yang selalu ada di situasi. Teman seperjuan dalam kuliah. Mari terus berteman sampai seterusnya</p>
+            </div>
+        </div>
+        <div class="polaroid">
+            <img src="gambar/Our.jpeg" alt="Our">
+            <div class="container">
+                <p>Yupss tidak jauh berbeda dengan trio, hanya saja ada satu anggota special yaitu bibil. Dia ituu wahh luar biasa, apalagi mulutnya wah wahh</p>
+            </div>
+        </div>
+        <div class="polaroid">
+            <img src="gambar/Bestie.jpeg" alt="Bestie">
+            <div class="container">
+                <p>Yupss bisa di lihat tidak jauh berbeda dengan trio, ada satu lagi namanya cleo. Cleoo itu anaknya pdt, yang terlihat pemalu tapi ternyata hahaha. Ternyata jokes kami berempat cocok loh, jadi gassken</p>
+            </div>
+        </div>
+    </div>
+
     <footer style="text-align: center;">
         <p>Copyright &copy; 2024 Anggraini Dwi Putri Sumarno.</p>
     </footer>
     <hr>
+</body>
+
+</html>
